@@ -1,0 +1,280 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+td {
+    text-align: center;
+}
+
+.errorPage{
+  color: red;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+
+
+
+
+/* HOME  HOME HOME HOME HOME HOME  HOME HOME HOME HOME*/
+
+
+
+.homeMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.daxilOl{
+  position: absolute;
+  top: 6%;
+  right: 8%;
+  border: 2px solid gray;
+  border-radius: 12px;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  color: black;
+}
+
+.daxilOl:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.floors{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px;
+}
+
+.floors img{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.box-1{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-1 img{
+  width: 100%;
+  border-radius: 12px;
+}
+
+.floor-1{
+  height: 27vh;
+  border-radius: 12px;
+  position: relative;
+}
+
+.floor-1:hover .floorBtn{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.floor-1:hover .layout{
+  opacity: 0;
+}
+
+.floor-2{
+  height: 27vh;
+  border-radius: 12px;
+  position: relative;
+}
+
+.floor-3{
+  height: 27vh;
+  border-radius: 12px;
+  position: relative;
+}
+
+.floor-4{
+  height: 27vh;
+  border-radius: 12px;
+  position: relative;
+}
+
+.layout{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(65, 153, 27);
+  border-radius: 12px;
+  transition: all .3s ease-in-out;
+}
+
+.floorText{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  pointer-events: none;
+}
+
+.floorBtn{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: all .3s ease-in-out;
+}
+
+.full{
+  display: none;
+}
+
+.full1{
+  width: 90vw;
+  height: 90vh;
+  background-color: rgb(133, 204, 202);
+  position: absolute;
+  top: -50%;
+  left: -210%;
+  z-index: 12;
+  opacity: 1;
+  border-radius: 12px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.screenClose{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: gray;
+  padding: 6px 12px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
+
+.screenClose:hover{
+  border-radius: 100%;
+}
+
+.screenUl{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+
+
+/* FLOORONE FLOORONE FLOORONE FLOORONE FLOORONEFLOORONE FLOORONE FLOORONE */
+
+.floorOneContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.floorOneContentInto{
+  background-color: #41991B;
+  width: 90%;
+  height: 90vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.floorOneContentInto li{
+  background-color: rgb(111, 255, 255);
+  text-align: center;
+  padding: 12px 12px 5px 12px;
+  width: 100px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+}
+
+.floorOneClose{
+  background-color: aqua;
+  padding: 7px 15px;
+  position: absolute;
+  top: 7%;
+  right: 6%;
+  border-radius: 12px;
+  color: black;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+
+.floorOneClose:hover{
+  border-radius: 100%;
+}
+
+.detailRoom{
+  position: absolute;
+  top: -50px;
+  left: -20px;
+  background-color: white;
+  width: 120px;
+}
+
+.lorem{
+  font-size: 13px;
+}
+
+.active{
+  display: none;
+}
+
+.closeDetailRoom{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: aquamarine;
+}
+
+
+/* ROOMDETAILINDEX ROOMDETAILINDEX ROOMDETAILINDEX ROOMDETAILINDEX ROOMDETAILINDEX*/
+
+.roomDetailIndex{
+  background-color: #d0d7ce;
+  width: 30%;
+  height: 45%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 122;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.roomDetailIndex span{
+  font-weight: bold;
+}
+
+
+

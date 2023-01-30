@@ -189,36 +189,25 @@ td {
 }
 
 .floorOneContentInto{
-  background-color: #41991B;
   width: 90%;
   height: 90vh;
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 40px;
-}
-
-.floorOneContentInto li{
-  background-color: rgb(111, 255, 255);
-  text-align: center;
-  padding: 12px 12px 5px 12px;
-  width: 100px;
-  border-radius: 12px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 20px;
+  background-image: url("https://i.postimg.cc/5yLSLsmK/Floor1.png");
+  background-position: center;
+  background-size: cover;
+  border: 2px solid red;
   position: relative;
 }
 
+.floorOneContentInto img{
+  width: 100%;
+}
+
 .floorOneClose{
-  background-color: aqua;
+  background-color: rgb(30, 184, 38);
   padding: 7px 15px;
   position: absolute;
-  top: 7%;
-  right: 6%;
-  border-radius: 12px;
+  top: 5%;
+  right: 2%;
   color: black;
   font-weight: bold;
   transition: all .3s ease-in-out;

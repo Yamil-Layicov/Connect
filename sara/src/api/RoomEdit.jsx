@@ -32,7 +32,7 @@ const RoomEdit = () => {
     e.preventDefault();
     const roomData = { roomNo, company, owner, sahe, roomType };
 
-    fetch("http://localhost:5000/Mertebe-2/" + roomid,{
+    fetch("http://localhost:5000/Mertebe-1/" + roomid,{
       method:"PUT",
       headers:{"content-type":"application/json"},
       body:JSON.stringify(roomData)

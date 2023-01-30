@@ -25,20 +25,12 @@
       "id": "3"
     },
     {
-      "roomNo": "16",
-      "company": "Azərbaycan Futzal Federasiyası",
-      "owner": "",
-      "sahe": "70,00",
-      "roomType": "Ofis",
-      "id": "4"
-    },
-    {
       "roomNo": "1",
       "company": "Azərbaycan Futzal Federasiyası",
       "owner": "",
-      "sahe": "347,10",
+      "sahe": "347",
       "roomType": "Ofis",
-      "id": "5"
+      "id": "4"
     },
     {
       "roomNo": "3",
@@ -162,7 +154,7 @@
     },
     {
       "roomNo": "26",
-      "company": "Agah Group MMC,Nobel boya və kimya MMC,Decopaints MMC",
+      "company":"Agah Group MMC,Decopaints MMC,Nobel boya ve kimya MMC",
       "owner": "",
       "sahe": "180 , 120 , 79",
       "roomType": "Ofis",

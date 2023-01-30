@@ -1,0 +1,33 @@
+.manyRooms{
+    display: flex;
+    justify-content: end;
+}
+
+.manyRoomsContent{
+    width: 80vw;
+    height: 256px;
+    display: flex;
+    justify-content: end;
+    gap: 55px;
+}
+
+
+
+.boxRight{
+    background-color: rgba(0, 0, 255, 0.492);
+    width: 180px;
+    height: 86px;
+    border: 2px solid black;
+}
+
+.sectionTwo{
+    background-color: rgba(165, 42, 42, 0.612);
+    width: 470px;
+    border: 2px solid black;
+}
+
+.sectionThree{
+    background-color: rgba(128, 255, 0, 0.616);   
+    width: 344px;
+    border: 2px solid black;
+}

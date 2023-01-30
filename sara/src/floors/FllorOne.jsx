@@ -1,38 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useState,useEffect } from 'react';
-import Index from '../components/Modal/Index';
+import ManyRooms from '../floorOneRooms/manyRooms/ManyRooms'
+import Room16 from '../floorOneRooms/room16/Room16'
+import Rooom2 from '../floorOneRooms/room2/Rooom2'
+import Room25 from '../floorOneRooms/room25/Room25'
+import Room26 from '../floorOneRooms/room26/Room26'
+
+
 const FllorOne = () => {
-
-    const [rooms, setRooms] = useState([]);
-    const [open,setOpen] = useState(false);
-    const [current,setCurrent] = useState(null)
-
-    useEffect(() => {
-      fetch("http://localhost:5000/Mertebe-1")
-        .then((res) => res.json())
-        .then((res2) => setRooms(res2));
-    }, []);
-
-    const handleList = (e)=>{
-        setCurrent(e)
-        setOpen(!open)
-    }
-
   return (  
     <>
        <div className='floorOneContent' >
-            <Index open={open} rooms={rooms} current={current}/>
         <div className='floorOneContentInto'>
-            {
-                rooms.map(room => (
-                    <ul>    
-                        <li onClick={() => handleList(room.id)}>
-                            <p>{room.roomNo}</p>
-                        </li>   
-                    </ul>
-                ))
-            }
+            <Room25/>
+            <Rooom2/>
+            <Room16/>
+            <Room26/>
+            <ManyRooms/>
         </div>
         <Link to='/'><div className='floorOneClose'>X</div></Link>
        </div>

@@ -43,7 +43,7 @@ const RoomList = () => {
         <div className="card cardContent">
           <div className="card-title">
             <div className="d-flex justify-content-start ">
-              <h2 className="ps-3">Connect Mertbe-1</h2>
+              <h2 className="ps-3">Connect : </h2>
               <select
                 className="ms-3"
                 onChange={(e) => handleLayer(e.target.value)}

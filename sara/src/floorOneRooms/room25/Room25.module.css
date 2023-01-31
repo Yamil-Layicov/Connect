@@ -5,6 +5,7 @@
     height: 180px;
     margin-left: 114px;
     border: 2px solid black;
+    border-top: none;
 }
 
 .room25Into{

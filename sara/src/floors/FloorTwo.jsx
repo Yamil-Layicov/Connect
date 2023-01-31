@@ -6,13 +6,9 @@ import Room1 from '../floorOneRooms/room1/Room1'
 import Rooom2 from '../floorOneRooms/room2/Rooom2'
 import Room25 from '../floorOneRooms/room25/Room25'
 import Room26 from '../floorOneRooms/room26/Room26'
-import Lift1 from '../Lifts/lift1/Lift1'
-import Lift2 from '../Lifts/lift2/Lift2'
-import Lift3 from '../Lifts/lift3/Lift3'
-import Lift4 from '../Lifts/lift4/Lift4'
 
 
-const FllorOne = () => {
+const FllorTwo = () => {
   return (  
     <>
        <div className='floorOneContent' >
@@ -23,10 +19,6 @@ const FllorOne = () => {
             <Room26/>
             <ManyRooms/>
             <ManyRoomsDown/>
-            <Lift1/>
-            <Lift2/>
-            <Lift3/>
-            <Lift4/>
         </div>
         <Link to='/'><div className='floorOneClose'>X</div></Link>
        </div>
@@ -34,4 +26,4 @@ const FllorOne = () => {
   )
 }
 
-export default FllorOne
+export default FllorTwo

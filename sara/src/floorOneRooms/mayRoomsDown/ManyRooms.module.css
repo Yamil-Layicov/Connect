@@ -1,0 +1,26 @@
+.manyRoomsDownContent{
+    width: 35%;
+    height: 150px;
+    position: absolute;
+    right: 106px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    border-left: 2px solid black;
+}
+
+.room17Content{
+    width: 20%;
+}
+
+.room16Content{
+    width: 25%;
+}
+
+.room15Content{
+    width: 20%;
+}
+
+.room1413Content{
+    width: 35%;
+}

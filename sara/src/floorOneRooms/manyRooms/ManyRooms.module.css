@@ -11,23 +11,99 @@
     gap: 55px;
 }
 
-
-
-.boxRight{
-    background-color: rgba(0, 0, 255, 0.492);
-    width: 180px;
-    height: 86px;
-    border: 2px solid black;
-}
-
 .sectionTwo{
-    background-color: rgba(165, 42, 42, 0.612);
     width: 470px;
     border: 2px solid black;
 }
 
+
+.sectionTwoUp,.sectionTwoDown{
+    height: 50%;
+}
+
+.sectionTwoUp,.sectionTwoDown{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sectionTwoUpBox1,.sectionTwoUpBox2,.sectionTwoUpBox3{
+    width: 33.3333%;
+}
+
+.sectionTwoUpBox1{
+    border-right: 2px solid black;
+}
+
+.sectionTwoUpBox2{
+    border-right: 2px solid black;
+}
+
+.sectionTwoDownBox1{
+    width: 33.33333%;
+    border-right: 2px solid black;
+}
+
+.sectionTwoDownBox2{
+    width: 33.33333%;
+    border-right: 2px solid black;
+}
+.sectionTwoDownBox3{
+    width: 33.33333%;
+}
+
+.sectionTwoUpBox3{
+
+}
+
+.sectionTwoDown{
+    border-top: 2px solid black;
+}
+
+
+
 .sectionThree{
-    background-color: rgba(128, 255, 0, 0.616);   
     width: 344px;
-    border: 2px solid black;
+}
+
+.sectionThreeUp,.sectionThreeDown{
+    width: 100%;
+    height: 50%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.sectionThreeDown{
+    border-bottom: 2px solid black;
+}
+
+.sectionThreeUp,.sectionThreeDown{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionThreeUpBox1,.sectionThreeUpBox2,.sectionThreeUpBox3,.sectionThreeUpBox{
+    width: 33.33333%;
+}
+
+.sectionThreeUpBox1,.sectionThreeUpBox2,.sectionThreeUpBox3{
+    border-right: 2px solid black;
+}
+
+.boxRight1,.boxRight2,.boxRight3{
+    width: 178px;
+    height: 33.333%;
+}
+
+.boxRight1,.boxRight2{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.sectionOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

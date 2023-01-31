@@ -1,0 +1,42 @@
+.lift3{
+    width: 124px;
+    height: 82px;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    border-left: 2px solid black;
+}
+
+.lift3Up,.lift3Down{
+    height: 50%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.lift3Up .box{
+    border-bottom: 2px solid black;
+}
+
+.box{
+    border-right: 2px solid black;
+    width: 20%;
+}
+
+.boxLift,.box1{
+    width: 20%;
+}
+
+.boxLift p{
+    transform: rotate(-90deg);
+    font-size: 12px;
+    background-color: yellow;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.lift3Down .box{
+    border-bottom: 2px solid black;
+}
+
+

@@ -33,6 +33,14 @@
       "id": "4"
     },
     {
+      "roomNo": "16",
+      "company": "Azərbaycan Futzal Federasiyası",
+      "owner": "",
+      "sahe": "70",
+      "roomType": "Ofis",
+      "id": "26"
+    },
+    {
       "roomNo": "3",
       "company": "TIIM MMC",
       "owner": "",
@@ -73,7 +81,7 @@
       "id": "10"
     },
     {
-      "roomNo": "22 , 21",
+      "roomNo": "21",
       "company": "Akt zalı",
       "owner": "",
       "sahe": "59 , 64",
@@ -97,20 +105,36 @@
       "id": "13"
     },
     {
-      "roomNo": "12,13,14",
+      "roomNo": "12",
       "company": "Safety Supply MMC",
       "owner": "",
-      "sahe": "72,65,57",
+      "sahe": "72",
       "roomType": "Ofis",
       "id": "14"
     },
     {
-      "roomNo": "10 , 11",
+      "roomNo": "13,14",
+      "company": "Safety Supply MMC",
+      "owner": "",
+      "sahe": "65,57",
+      "roomType": "Ofis",
+      "id": "25"
+    },
+    {
+      "roomNo": "10",
       "company": "Star Uniform MMC",
       "owner": "",
-      "sahe": "144,00",
+      "sahe": "72,00",
       "roomType": "Ofis",
       "id": "15"
+    },
+    {
+      "roomNo": "11",
+      "company": "Star Uniform MMC",
+      "owner": "",
+      "sahe": "72,00",
+      "roomType": "Ofis",
+      "id": "24"
     },
     {
       "roomNo": "9",
@@ -154,7 +178,7 @@
     },
     {
       "roomNo": "26",
-      "company":"Agah Group MMC,Decopaints MMC,Nobel boya ve kimya MMC",
+      "company": "Agah Group MMC,Decopaints MMC,Nobel boya ve kimya MMC",
       "owner": "",
       "sahe": "180 , 120 , 79",
       "roomType": "Ofis",
@@ -167,6 +191,14 @@
       "sahe": "74",
       "roomType": "Ofis",
       "id": "22"
+    },
+    {
+      "roomNo": "22",
+      "company": "Konfrans zali",
+      "owner": "",
+      "sahe": "59",
+      "roomType": "Ofis",
+      "id": "23"
     }
   ],
   "Mertebe-2": [

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import ManyRooms from '../floorOneRooms/manyRooms/ManyRooms'
 import ManyRoomsDown from '../floorOneRooms/mayRoomsDown/ManyRoomsDown'
 import Room1 from '../floorOneRooms/room1/Room1'
@@ -13,9 +14,24 @@ import Lift4 from '../Lifts/lift4/Lift4'
 
 
 const FllorOne = () => {
+
+  const [darkMode, setDarkMode] = useState(false);
+
   return (  
     <>
        <div className='floorOneContent' >
+       <div  className='showHide'>
+       <div className={darkMode ? "dark-mode" : "light-mode"}>
+          <div className="container">
+            <div className="switch-checkbox">
+              <label className="switch">
+                <input type="checkbox" onChange={() => setDarkMode(!darkMode)} />
+                <span className="slider round"> </span>
+              </label>
+            </div>
+          </div>
+        </div>
+       </div>
         <div className='floorOneContentInto'>
             <Room25/>
             <Rooom2/>
@@ -28,6 +44,7 @@ const FllorOne = () => {
             <Lift3/>
             <Lift4/>
         </div>
+        <div className={darkMode ? "layoutImgActive" : "layoutImg"}><img src="https://i.postimg.cc/qBjCzDhR/Floor1.png" alt="" /></div>
         <Link to='/'><div className='floorOneClose'>X</div></Link>
        </div>
     </>

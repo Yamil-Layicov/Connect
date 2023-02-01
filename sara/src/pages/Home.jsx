@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <>
-      <div className="container ">
+    <div className="">
+      <div className="container">
         <div className="row homeMain">
           <div className="col-lg-6 box-1">
             <img src={con} alt="" />
@@ -73,7 +73,7 @@ const Home = () => {
         </div>  
         <Link to='/login'><div className='daxilOl' >Daxil Ol</div></Link>
       </div>
-    </>       
+    </div>       
   );
 };
 

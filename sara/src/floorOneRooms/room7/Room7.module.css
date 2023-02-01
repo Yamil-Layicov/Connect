@@ -38,8 +38,8 @@
 .allRoomIntoDetailActive{
     background-color: rgb(9, 84, 9);
     position: absolute;
-    top: 15%;
-    left: 42%;
+    top: 24%;
+    left: 45%;
     padding: 20px;
     display: flex;
     flex-direction: column;
